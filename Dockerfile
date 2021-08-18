@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM openjdk:15
+FROM openjdk:15-buster
 
 # Env variables
 ENV SCALA_VERSION 2.12.12
